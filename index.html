@@ -18,15 +18,15 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/navumath.data",
-        frameworkUrl: "Build/navumath.framework.js",
-        codeUrl: "Build/navumath.wasm",
+        dataUrl: "Build/navumath.data.gz",
+        frameworkUrl: "Build/navumath.framework.js.gz",
+        codeUrl: "Build/navumath.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "NavuMath",
         productVersion: "1.0.2",
-        matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
-         devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
+        // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
+        // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
     </script>
   </body>
